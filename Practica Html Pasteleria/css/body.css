@@ -1,0 +1,20 @@
+.ornament-body {
+    background-image: url("../images/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .cakeShop-body {
+    background-image: url("../images/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .index-body {
+    background-image: url("../images/fondo3.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }

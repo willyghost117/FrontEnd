@@ -1,0 +1,92 @@
+
+.index-container{
+    width: 20%;
+	display: flex;
+}
+
+.index-header{
+    height:50px;
+    width:300px;
+    margin:0px auto;
+    
+}
+
+.index-nav{
+    height:350px;
+    width:350px;
+    margin:0px auto;
+}
+
+.cake {
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:rgb(214, 137, 137);
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.cake img{
+	width: 100%;
+	height: 200px;
+}
+
+
+.ornament {
+    width: 100%;
+    height: 50%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:rgb(158, 202, 117);
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.ornament img{
+    width: 100%;
+	height: 200px;
+}
+
+.contact {
+    width: 100%;
+    height: 20%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:rgb(151, 193, 231);
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+
+.contact img {
+    width: 50%;
+    height: 100px;
+}
+
+.index-footer {
+    width: 100%;
+    height: 15%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.footer {
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h3 {
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+}
