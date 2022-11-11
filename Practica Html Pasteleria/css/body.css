@@ -18,3 +18,18 @@
     background-attachment: fixed;
     background-size: cover;
   }
+
+  .inventory-body {
+    background-image: url("../images/fondo4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .contact-body {
+    background-image: url("../images/fondoContact.jpg");
+  }
+
+  .order-body {
+    background-image: url("../images/fondoOrders.jpg");
+  }
