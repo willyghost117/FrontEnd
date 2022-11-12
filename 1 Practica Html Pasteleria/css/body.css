@@ -1,0 +1,35 @@
+.ornament-body {
+    background-image: url("../images/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .cakeShop-body {
+    background-image: url("../images/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .index-body {
+    background-image: url("../images/fondo3.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .inventory-body {
+    background-image: url("../images/fondo4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .contact-body {
+    background-image: url("../images/fondoContact.jpg");
+  }
+
+  .order-body {
+    background-image: url("../images/fondoOrders.jpg");
+  }
