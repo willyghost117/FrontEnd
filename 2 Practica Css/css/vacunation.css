@@ -27,7 +27,7 @@
     color:#ffffff;
     padding-top:20px;
     padding-bottom:20px;
-    padding-left:40px;
+    padding-left:20px;
     padding-right:40px;
     background-color:#005BBB;
     border: none;
@@ -38,16 +38,15 @@
     padding: 50px;
 }
 .vacunation-container {
-    width: max-content;
-    height: max-content;
+    
     
 }
 
 .vacunation-containerFirst {
     width: 100%;
-    height: 600px;
-    
+    height: 900px;
     display: flex;
+    
 }
 
 .vacunation-containerFirst img {
@@ -76,21 +75,52 @@
 }
 .li-Schedule{
     padding: 50px;
+    font-size: medium;
+    color: #012485;
+    font-weight:900;
 }
 
 .div-flotante{
-    background-color: aqua;
+    background-color: rgba(248, 250, 250, 0.788);
     width: 55%;
 	height: 125px;
     font-size: medium;
     display: flex;
 }
 
+.ul-icon-blue {
+    width: 100%;
+    height: 100px;
+    line-height: 2em;
+    list-style-image: url("../img/icon-blue-smaill.jpg") ;
+}
+
+.ul-icon-blue li{
+    
+    color: #012485;
+    
+}
+
 .div-flotante button {
-    width: 15%;
-    height: 50px;
-    padding: 30px;
+    width: 30%;
+    height: 25px;
+    padding: 15px;
     padding-right: 10px;
+    margin-top: 25px;
+    background-color:#005BBB;
+    margin-right: 25px;
+    border: none;
+    color: #ffffff;
+    border-radius: 3px;
+    
+}
+
+.nav-3 {
+    margin-left: 5px;
+    padding: 5px;
+    word-spacing: 2em;
+    color: #012485;
+    font-weight:900;
 }
 
 .div-flotante ul {
@@ -101,15 +131,253 @@
     list-style-image: url("../img/iconStar\ \(2\).png");
     display: flex;
     font-size:medium;
+    position:relative
 }
 
 .star-ul li{
     font-size:medium;
+    height: 5em;
+    
+}
+
+.down-figure {
+    width: 50%;
+    height: 200px;
+}
+
+.down-figure img {
+    width: 140%;
+    height: 200px;
     
 }
 
 .vacunation-containerSecond{
-    width: 400px;
+    display: flex;
+    height: 850px;
+}
+
+.vacunation-containerSecond1 {
+    width: 50%;
+    height: 300px;
+    padding: 10px;
+    font-size: x-large;
+}
+
+.vacunation-containerSecond1 h2 {
+    color: #005BBB;
+    font-weight:900;
+    text-align: center;
+
+}
+
+.vacunation-containerSecond1 p {
+    padding: 30px;
+    color: #7a7a7a;
+    font-family: "Segoe UI";
+    font-weight:500;
+    
+}
+
+.vacunation-containerSecond2 {
+    width: 100%;
+    height: 500px;
+}
+
+.container-card{
+	width: 100%;
     height: 400px;
-    background-color:blueviolet;
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: #7a7a7a;
+}
+.card{
+	width: 200px;
+    height: 350px;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img{
+	width: 100%;
+	height: 200px;
+}
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+    
+}
+.card .contenido-card h3{
+	margin-bottom: 15px;
+	color: #7a7a7a;
+}
+.card .contenido-card p{
+	line-height: 1.8;
+	color: #6a6a6a;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.card .contenido-card a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #2fb4cc;
+	border: 1px solid #2fb4cc;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+.card .contenido-card a:hover{
+	background: #2fb4cc;
+	color: #fff;
+}
+
+.vacunation-containerThird {
+    
+    display: flex;
+}
+
+.vacunation-containerThird1 {
+    
+}
+
+.vacunation-containerThird2 {
+    
+    
+}
+
+.vacunation-containerThird2 h2 {
+    color: #005BBB;
+    font-family: "Segoe UI";
+    font-weight:700;
+    text-align: center;
+}
+
+.vacunation-containerThird2 p {
+    color: #7a7a7a;
+    font-family: "Segoe UI";
+    font-weight:700;
+    margin: 0px 150px 15px;
+    width: 440px;
+}
+
+.S-Text {
+    margin: 0px 250px 15px;
+    font-size: x-small;
+}
+
+.S1 {
+    background-color:#ffffffc7;
+    color: #005BBB;
+    font-size: medium;
+    font-family: "Segoe UI";
+    font-weight:700;
+    margin: 10px 100px 5px;
+    padding: 5px 75px 20px;
+    width: 500px;
+}
+
+.S2 {
+    background-color:#ffffffc7;
+    color: #005BBB;
+    font-size: medium;
+    font-family: "Segoe UI";
+    font-weight:700;
+    margin: 10px 100px 5px;
+    padding: 5px 75px 20px;
+    width: 500px;
+}
+
+.S3 {
+    background-color:#ffffffc7;
+    color: #005BBB;
+    font-size: medium;
+    font-family: "Segoe UI";
+    font-weight:700;
+    margin: 10px 100px 5px;
+    padding: 5px 75px 20px;
+    width: 500px;
+}
+
+.S4 {
+    background-color:#ffffffc7;
+    color: #005BBB;
+    font-size: medium;
+    font-family: "Segoe UI";
+    font-weight:700;
+    margin: 10px 100px 5px;
+    padding: 5px 75px 20px;
+    width: 500px;
+}
+
+.vacunation-containerFourth {
+    display: flex;
+}
+
+.vacunation-containerFourth1 {
+    
+}
+
+.card2 {
+    padding: 100px 25px 25px;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background:#fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition: all 400ms ease-out;
+    cursor: default;
+    padding: 20px 50px 20px;
+}
+
+.btn-fourthContainer {
+    color: #fff;
+}
+
+.footer {
+    width: 100%;
+}
+
+.footer1 {
+    display: flex;
+}
+
+.footer1-1 {
+    width: 50%;
+    display: flex;
+}
+
+.footer1-2 {
+    width: 50%;
+    display: flex;
+}
+
+.footer2 {
+    text-align: center;
+    display: flex;
+}
+
+.footer2-1 {
+    width: 50%;
+}
+
+.footer2-2 {
+    width: 50%;
+    text-align: center;
 }
